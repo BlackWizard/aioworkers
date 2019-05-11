@@ -1,9 +1,11 @@
+dist: xenial
 language: python
 sudo: false
 services: []
 python:
   - 3.5.3
   - 3.6
+  - 3.7
   # - 3.7-dev
   # - pypy3
 install:
